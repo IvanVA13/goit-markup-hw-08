@@ -437,7 +437,7 @@ body {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/overlay.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/mobile/overlay.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -447,6 +447,36 @@ body {
   .hero {
     padding-top: 118px;
     padding-bottom: 118px;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/mobile/overlay@2x.jpg");
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/tablet/overlay.jpg");
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/tablet/overlay@2x.jpg");
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/desktop/overlay.jpg");
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/desktop/overlay@2x.jpg");
   }
 }
 
@@ -739,7 +769,7 @@ body {
 .form__checkbox:checked + .form__custom-checkbox {
   background-color: #2196f3;
   border-color: transparent;
-  background-image: url("../images/modal-cheked.svg");
+  background-image: url("../images/icon/modal-cheked.svg");
   background-size: contain;
   background-origin: border-box;
 }
@@ -844,19 +874,19 @@ body {
 }
 
 .advantages__item:nth-child(1)::before {
-  background-image: url("../images/icon-antenna.svg");
+  background-image: url("../images/icon/icon-antenna.svg");
 }
 
 .advantages__item:nth-child(2)::before {
-  background-image: url("../images/icon-clock.svg");
+  background-image: url("../images/icon/icon-clock.svg");
 }
 
 .advantages__item:nth-child(3)::before {
-  background-image: url("../images/icon-diagram.svg");
+  background-image: url("../images/icon/icon-diagram.svg");
 }
 
 .advantages__item:nth-child(4)::before {
-  background-image: url("../images/icon-astronaut.svg");
+  background-image: url("../images/icon/icon-astronaut.svg");
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {

@@ -151,7 +151,7 @@
   &__checkbox:checked + &__custom-checkbox {
     background-color: $accent-color;
     border-color: transparent;
-    background-image: url("../images/modal-cheked.svg");
+    background-image: url("../images/icon/modal-cheked.svg");
     background-size: contain;
     background-origin: border-box;
   }

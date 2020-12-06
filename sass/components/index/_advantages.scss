@@ -44,19 +44,19 @@
   }
 
   &__item:nth-child(1)::before {
-    background-image: url("../images/icon-antenna.svg");
+    background-image: url("../images/icon/icon-antenna.svg");
   }
 
   &__item:nth-child(2)::before {
-    background-image: url("../images/icon-clock.svg");
+    background-image: url("../images/icon/icon-clock.svg");
   }
 
   &__item:nth-child(3)::before {
-    background-image: url("../images/icon-diagram.svg");
+    background-image: url("../images/icon/icon-diagram.svg");
   }
 
   &__item:nth-child(4)::before {
-    background-image: url("../images/icon-astronaut.svg");
+    background-image: url("../images/icon/icon-astronaut.svg");
   }
 
   &__item:nth-child(2n + 1) {
