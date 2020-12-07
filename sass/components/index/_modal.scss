@@ -3,13 +3,16 @@
   top: 50%;
   left: 50%;
 
-  width: 528px;
-  height: 581px;
-  padding: 40px;
-  @include for-size(mob-tab) {
-    width: 450px;
-    height: 609px;
+  width: 450px;
+  height: 609px;
+  @include for-size(mobile-s) {
+    width: 100%;
   }
+  @include for-size(desktop) {
+    width: 95%;
+    height: 581px;
+  }
+  padding: 40px;
 
   background-color: $second-accent-color;
   transform: translate(-50%, -50%) scale(1);
