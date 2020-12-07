@@ -81,7 +81,9 @@
   &__title {
     @extend %title;
     @include fonts(700, inherit);
-
+    @include for-size(mobile-only) {
+      text-align: center;
+    }
     text-transform: uppercase;
   }
   //Оформление параграфов особенности компании

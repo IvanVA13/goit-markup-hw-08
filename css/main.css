@@ -570,7 +570,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 95%;
+    width: 528px;
     height: 581px;
   }
 }
@@ -925,6 +925,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .advantages__title {
+    text-align: center;
+  }
 }
 
 .advantages__desc {
@@ -1394,11 +1400,11 @@ body {
 .portfolio__description {
   position: absolute;
   top: 100%;
+  right: 0;
+  bottom: 0;
   left: 0;
   margin: 0;
   padding: 63px 24px;
-  width: 370px;
-  height: 294px;
   color: #ffffff;
   font-weight: 400;
   font-size: 18px;

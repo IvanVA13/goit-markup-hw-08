@@ -78,13 +78,13 @@
   &__description {
     position: absolute;
     top: 100%;
+    right: 0;
+    bottom: 0;
     left: 0;
 
     @extend %d-block;
     margin: 0;
     padding: 63px 24px;
-    width: 370px;
-    height: 294px;
 
     color: $second-accent-color;
     @include fonts($fc: 18px, $lh: 1.56);
