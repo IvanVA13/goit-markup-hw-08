@@ -25,9 +25,6 @@
     @extend %d-block;
     margin-bottom: 30px;
     content: "";
-    @include for-size(mobile-only) {
-      width: 450px;
-    }
     @include for-size(tablet-only) {
       width: 354px;
     }

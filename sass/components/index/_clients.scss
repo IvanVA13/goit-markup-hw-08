@@ -8,6 +8,9 @@
     @include for-size(mobile-only) {
       min-width: 210px;
     }
+    @include for-size(mobile-s) {
+      min-width: 130px;
+    }
     @include for-size(tablet-only) {
       min-width: 226px;
     }

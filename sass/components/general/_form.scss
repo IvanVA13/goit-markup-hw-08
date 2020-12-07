@@ -39,13 +39,15 @@
   &__input-alt {
     @extend %d-in-block;
     margin-right: 12px;
-    padding-left: 16px;
-    width: 358px;
-    height: 50px;
-
     @include for-size(mob-tab) {
       margin-bottom: 20px;
     }
+    padding-left: 16px;
+    width: 300px;
+    @include for-size(mobile) {
+      width: 358px;
+    }
+    height: 50px;
 
     color: $second-accent-color;
     @include fonts($lh: 1.25);

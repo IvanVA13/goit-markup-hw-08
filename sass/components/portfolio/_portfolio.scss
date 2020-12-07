@@ -9,6 +9,17 @@
   @extend %list;
   flex-wrap: wrap;
 
+  &__item {
+    width: 100%;
+    @include for-size(tablet-only) {
+      width: calc((100% - 30px) / 2);
+    }
+
+    @include for-size(desktop) {
+      width: calc((100% - 60px) / 3);
+    }
+  }
+
   &__item:not(:last-child) {
     @include for-size(mobile-only) {
       margin-bottom: 30px;
@@ -41,17 +52,6 @@
 
   &__link {
     @extend %link, %d-block;
-    @include for-size(mobile-only) {
-      width: 450px;
-    }
-
-    @include for-size(tablet-only) {
-      width: 354px;
-    }
-
-    @include for-size(desktop) {
-      width: 370px;
-    }
 
     background-color: $second-accent-color;
     border: 1px solid #eeeeee;
